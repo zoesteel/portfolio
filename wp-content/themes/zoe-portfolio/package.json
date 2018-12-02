@@ -1,0 +1,17 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "name": "zoe-portfolio",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,144 @@
+/*
+Theme Name: GK Portfolio Child
+Description: Child Theme of GK Portfolio
+Template: gk-portfolio
+Version: 1.0.0
+Author: Zoe Steel
+Author URI: http://www.zoesteel.com
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: GK-Portfolio-child
+
+*/
+
+/* HEADER */
+
+header {
+	margin-top: 3vh;
+}
+
+/* MENU */
+
+
+#menu-main {
+	background-color: #33afbe;
+	/*margin: -1%;*/
+}
+
+#menu-main li {
+	border:none;
+}
+
+#menu-main li a {
+	color: #FFF!important;
+}
+
+/* MAIN PAGE */
+
+.site-main #page {
+	margin: -1% auto;
+}
+
+/* SINGLE POST */
+
+.entry-title {
+	padding: 50px 40px 0 40px;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em!important;
+}
+
+
+.single .entry-content, .page .entry-content {
+	text-align: justify;
+}
+
+img.alignnone {
+	margin: 0 auto;
+	display: block;
+}
+
+.entry-content {
+	padding: 0 40px 0 40px;
+}
+
+.site-content {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+#content .tags-links.category-links:before {
+	content: "\f101";
+}
+
+#content {
+	opacity: 0.85;
+}
+
+.site-content.archive article {
+	padding: 25px;
+}
+
+.oxford {
+	width: 70%!important;
+}
+
+.widget-title {
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em!important;
+}
+
+.social {
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	margin: auto;
+}
+
+.insta span:before {
+	font-family: 'FontAwesome';
+	content: '\f16d';
+	position: relative;
+	margin: 15px;
+	font-size: 300%;
+}
+
+.twitter span:before {
+	font-family: 'FontAwesome';
+	content: '\f081';
+	position: relative;
+	margin: 15px;
+	font-size: 300%;
+}
+
+.linkedin span:before {
+	font-family: 'FontAwesome';
+	content: '\f08c';
+	position: relative;
+	margin: 15px;
+	font-size:  300%;	
+}
+
+
+/* FOOTER */
+
+#gk-footer {
+	background-color: #33afbe;
+	color: #FFF;
+	width: 100%!important;
+	max-width: 100%;
+}
+
+#gk-footer a {
+	color: #444444;
+}
+
+.widget {
+	font-size: 12px;
+}
+
+#gk-footer .widget-area {
+	padding: 10px 0;
+	text-align: center;
+}

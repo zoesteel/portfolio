@@ -1,0 +1,6 @@
+[02-Jul-2018 18:53:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'zoesiylw_zoe'@'localhost' (using password: YES) in /Applications/MAMP/htdocs/portfolio/wp-includes/wp-db.php on line 1531
+[02-Jul-2018 18:54:13 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'zoesiylw_zoe'@'localhost' (using password: YES) in /Applications/MAMP/htdocs/portfolio/wp-includes/wp-db.php on line 1531
+[02-Jul-2018 18:56:14 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'zoesiylw_zoe'@'localhost' (using password: YES) in /Applications/MAMP/htdocs/portfolio/wp-includes/wp-db.php on line 1531
+[02-Jul-2018 18:58:14 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'zoesiylw_zoe'@'localhost' (using password: YES) in /Applications/MAMP/htdocs/portfolio/wp-includes/wp-db.php on line 1531
+[02-Jul-2018 18:59:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'zoesiylw_zoe'@'localhost' (using password: YES) in /Applications/MAMP/htdocs/portfolio/wp-includes/wp-db.php on line 1531
+[02-Jul-2018 18:59:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'zoesiylw_zoe'@'localhost' (using password: YES) in /Applications/MAMP/htdocs/portfolio/wp-includes/wp-db.php on line 1531
