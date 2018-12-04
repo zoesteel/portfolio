@@ -14669,3 +14669,53 @@ $(document).ready(function(){
 2018-11-18 16:24:28#82 - WPSiteSyncContent::filter_unique_filename() filename=en_GB-ladSaI.tmp ext=.tmp dir=/var/folders/rr/ngz7w3p909j_wbt3v8lnp26w0000gn/T/
 2018-11-18 16:24:29#82 - WPSiteSyncContent::filter_upgrader_download() package='https://downloads.wordpress.org/translation/plugin/theme-check/20160523.1/en_GB.zip'
 2018-11-18 16:24:29#82 - WPSiteSyncContent::filter_unique_filename() filename=en_GB-Ky5IEE.tmp ext=.tmp dir=/var/folders/rr/ngz7w3p909j_wbt3v8lnp26w0000gn/T/
+2018-12-03 19:43:11#54 - SyncLicensing::_get_api_url():120
+    #1: SyncLicensing->_get_api_url() - plugins/wpsitesynccontent/classes/licensing.php:610
+    #2: SyncLicensing->get_update_data() - plugins/wpsitesynccontent/wpsitesynccontent.php:211
+    #3: WPSiteSyncContent::check_updates() - plugins/wpsitesynccontent/wpsitesynccontent.php:195
+    #4: WPSiteSyncContent->plugins_loaded() - /Applications/MAMP/htdocs/portfolio/wp-includes/class-wp-hook.php:286
+    #5: WP_Hook->apply_filters() - /Applications/MAMP/htdocs/portfolio/wp-includes/class-wp-hook.php:310
+    #6: WP_Hook->do_action() - /Applications/MAMP/htdocs/portfolio/wp-includes/plugin.php:453
+    #7: do_action() - /Applications/MAMP/htdocs/portfolio/wp-settings.php:327
+    #8: require_once() - /Applications/MAMP/htdocs/portfolio/wp-config.php:89
+    #9: require_once() - /Applications/MAMP/htdocs/portfolio/wp-load.php:37
+    #10: require_once() - /Applications/MAMP/htdocs/portfolio/wp-blog-header.php:13
+    #11: require() - /Applications/MAMP/htdocs/portfolio/index.php:17
+2018-12-03 19:43:12#52 - SyncLicensing::_get_api_url():120
+    #1: SyncLicensing->_get_api_url() - plugins/wpsitesynccontent/classes/licensing.php:610
+    #2: SyncLicensing->get_update_data() - plugins/wpsitesynccontent/wpsitesynccontent.php:211
+    #3: WPSiteSyncContent::check_updates() - plugins/wpsitesynccontent/wpsitesynccontent.php:195
+    #4: WPSiteSyncContent->plugins_loaded() - /Applications/MAMP/htdocs/portfolio/wp-includes/class-wp-hook.php:286
+    #5: WP_Hook->apply_filters() - /Applications/MAMP/htdocs/portfolio/wp-includes/class-wp-hook.php:310
+    #6: WP_Hook->do_action() - /Applications/MAMP/htdocs/portfolio/wp-includes/plugin.php:453
+    #7: do_action() - /Applications/MAMP/htdocs/portfolio/wp-settings.php:327
+    #8: require_once() - /Applications/MAMP/htdocs/portfolio/wp-config.php:89
+    #9: require_once() - /Applications/MAMP/htdocs/portfolio/wp-load.php:37
+    #10: require_once() - /Applications/MAMP/htdocs/portfolio/wp-cron.php:33
+2018-12-03 19:43:12#54 - SyncApiModel::render() api=''
+2018-12-03 19:43:56#23 - SyncLicensing::_get_api_url():120
+    #1: SyncLicensing->_get_api_url() - plugins/wpsitesynccontent/classes/licensing.php:610
+    #2: SyncLicensing->get_update_data() - plugins/wpsitesynccontent/wpsitesynccontent.php:211
+    #3: WPSiteSyncContent::check_updates() - plugins/wpsitesynccontent/wpsitesynccontent.php:195
+    #4: WPSiteSyncContent->plugins_loaded() - /Applications/MAMP/htdocs/portfolio/wp-includes/class-wp-hook.php:286
+    #5: WP_Hook->apply_filters() - /Applications/MAMP/htdocs/portfolio/wp-includes/class-wp-hook.php:310
+    #6: WP_Hook->do_action() - /Applications/MAMP/htdocs/portfolio/wp-includes/plugin.php:453
+    #7: do_action() - /Applications/MAMP/htdocs/portfolio/wp-settings.php:327
+    #8: require_once() - /Applications/MAMP/htdocs/portfolio/wp-config.php:89
+    #9: require_once() - /Applications/MAMP/htdocs/portfolio/wp-load.php:37
+    #10: require_once() - /Applications/MAMP/htdocs/portfolio/wp-blog-header.php:13
+    #11: require() - /Applications/MAMP/htdocs/portfolio/index.php:17
+2018-12-03 19:43:56#23 - SyncApiModel::render() api=''
+2018-12-03 19:44:11#19 - SyncLicensing::_get_api_url():120
+    #1: SyncLicensing->_get_api_url() - plugins/wpsitesynccontent/classes/licensing.php:610
+    #2: SyncLicensing->get_update_data() - plugins/wpsitesynccontent/wpsitesynccontent.php:211
+    #3: WPSiteSyncContent::check_updates() - plugins/wpsitesynccontent/wpsitesynccontent.php:195
+    #4: WPSiteSyncContent->plugins_loaded() - /Applications/MAMP/htdocs/portfolio/wp-includes/class-wp-hook.php:286
+    #5: WP_Hook->apply_filters() - /Applications/MAMP/htdocs/portfolio/wp-includes/class-wp-hook.php:310
+    #6: WP_Hook->do_action() - /Applications/MAMP/htdocs/portfolio/wp-includes/plugin.php:453
+    #7: do_action() - /Applications/MAMP/htdocs/portfolio/wp-settings.php:327
+    #8: require_once() - /Applications/MAMP/htdocs/portfolio/wp-config.php:89
+    #9: require_once() - /Applications/MAMP/htdocs/portfolio/wp-load.php:37
+    #10: require_once() - /Applications/MAMP/htdocs/portfolio/wp-blog-header.php:13
+    #11: require() - /Applications/MAMP/htdocs/portfolio/index.php:17
+2018-12-03 19:44:11#19 - SyncApiModel::render() api=''
