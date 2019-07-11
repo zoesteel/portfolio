@@ -7,6 +7,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 2.25rem;
+    // text-shadow: 4px 4px 1px rgba(255, 74, 211, 1);
 }
 
 h2, h3 {
@@ -22,17 +23,18 @@ a {
     color: rgb(77, 15, 201);
     padding: 5px 1px 5px 1px;   
     background-image: linear-gradient(to right,
-    rgb(77, 15, 201),
+    rgb(77, 15, 101),
     rgb(77, 15, 201),
     50%,
-    transparent 50%,
+    transparent 20%,
     transparent);
     background-position: 100% 0;
     background-size: 200% 100%;
     transition: all .2s ease-in;
+    border-radius: 1px;
 }    
         
 a:hover { 
 	background-position: 0 0; 
-	color: #fff; 
+    color: #fff; 
 }

@@ -1,3 +1,10 @@
+body {
+    background: $darkPink;  /* fallback for old browsers */
+    background: $gradient-webkit;
+    background: $gradient;
+    /* background: #fff;  /* fallback for old browsers */
+}
+
 .wrapper {
     margin: 15px;
     display: grid;
@@ -41,23 +48,33 @@
     @media (min-width: $lg) {
         grid-template-columns: repeat(3, 1fr);
     }   
+
+    a {
+        color: #000;
+        padding: 0px;  
+        border-radius: 3px;
+
+        &:hover {
+            color: #fff;
+        }
+    }
 }
 
 .project {
-    background: #6b536a;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6b536a, #b094aa);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6b536a, #b094aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ #c09696 */
+    background: $darkGrey;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $darkGrey, $lightGrey);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $darkGrey, $lightGrey); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ #c09696 */
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 4px;
     height: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-family: $headerFont;
-    transition: background ease 3s;
+    // transition: background ease 3s;
 
-    &:hover {
-        background: #6b536a;
+    &:hover, &:active {
+        background: transparent;
     }
 }
 

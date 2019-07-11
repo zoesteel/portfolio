@@ -1,11 +1,19 @@
-body {
-    background: #B24592;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    opacity: 0.9;
-}
-
 // Screen sizes
 $sm: 500px;
 $md: 700px;
 $lg: 1000px;
+
+// Colours 
+$darkGrey: #6b536a; 
+$lightGrey: #b094aa;
+$darkPink: #B24592;
+$lightPink: #F15F79;
+
+
+// Gradient
+$gradient: linear-gradient(to right, $lightPink, $darkPink); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+$gradient-webkit:  -webkit-linear-gradient(to right, $lightPink, $darkPink);  /* Chrome 10-25, Safari 5.1-6 */
+
+$gradient2: -webkit-linear-gradient(to right, #FFF, rgb(191, 185, 205));  /* Chrome 10-25, Safari 5.1-6 */
+$gradient2-webkit: linear-gradient(to right, #FFF, rgb(191, 185, 205)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+

@@ -9,7 +9,9 @@
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: #B24592;
+    background: $darkPink;  /* fallback for old browsers */
+    background: $gradient-webkit;
+    background: $gradient;
   }
 
 /* Modal Content */
@@ -37,7 +39,7 @@
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: $lightGrey;
     text-decoration: none;
     cursor: pointer;
 }

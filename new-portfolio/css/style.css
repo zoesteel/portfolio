@@ -35,15 +35,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  background: #B24592;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #F15F79, #B24592);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #F15F79, #B24592);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  opacity: 0.9; }
-
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* Chrome 10-25, Safari 5.1-6 */
+/* Chrome 10-25, Safari 5.1-6 */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 h1, h2, h3 {
   font-family: "Cutive"; }
 
@@ -60,14 +55,22 @@ body {
 a {
   color: #4d0fc9;
   padding: 5px 1px 5px 1px;
-  background-image: linear-gradient(to right, #4d0fc9, #4d0fc9, 50%, transparent 50%, transparent);
+  background-image: linear-gradient(to right, #4d0f65, #4d0fc9, 50%, transparent 20%, transparent);
   background-position: 100% 0;
   background-size: 200% 100%;
-  transition: all .2s ease-in; }
+  transition: all .2s ease-in;
+  border-radius: 1px; }
 
 a:hover {
   background-position: 0 0;
   color: #fff; }
+
+body {
+  background: #B24592;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F15F79, #B24592);
+  background: linear-gradient(to right, #F15F79, #B24592);
+  /* background: #fff;  /* fallback for old browsers */ }
 
 .wrapper {
   margin: 15px;
@@ -104,6 +107,12 @@ a:hover {
   @media (min-width: 1000px) {
     .projects {
       grid-template-columns: repeat(3, 1fr); } }
+  .projects a {
+    color: #000;
+    padding: 0px;
+    border-radius: 3px; }
+    .projects a:hover {
+      color: #fff; }
 
 .project {
   background: #6b536a;
@@ -113,15 +122,14 @@ a:hover {
   background: linear-gradient(to right, #6b536a, #b094aa);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ #c09696 */
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 4px;
   height: 150px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  font-family: "Cutive";
-  transition: background ease 3s; }
-  .project:hover {
-    background: #6b536a; }
+  font-family: "Cutive"; }
+  .project:hover, .project:active {
+    background: transparent; }
 
 .footer {
   grid-column: 1 / span 5;
@@ -150,7 +158,10 @@ a:hover {
   /* Full height */
   overflow: auto;
   /* Enable scroll if needed */
-  background-color: #B24592; }
+  background: #B24592;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F15F79, #B24592);
+  background: linear-gradient(to right, #F15F79, #B24592); }
 
 /* Modal Content */
 .modal-content {
@@ -175,7 +186,7 @@ a:hover {
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: #b094aa;
   text-decoration: none;
   cursor: pointer; }
 
